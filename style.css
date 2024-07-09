@@ -201,3 +201,43 @@ body {
     margin-left: 50px;
 }
 
+/* my inspiration sections styles here  */
+.my-inspiration-section{
+    max-width: 1140px;
+    height: 800px;
+    margin: 0 auto;
+    margin-bottom: 3130px;
+}
+.inspiration-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.inspiration-title h2{
+    font-size: 32px;
+    font-family: Azeret Mono;
+    font-weight: 800px;
+    color: #0d1321;
+    margin: 24px 0px;
+}
+.inspiration-title p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 852px;
+}
+.inspiration-video iframe{
+    display: inline-block;
+    background-color:rgb(252, 252, 252);
+    margin-top: 80px;
+    margin-bottom: 160px;
+    width: 1076px;
+    height: 550px;
+    padding: 32 px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
