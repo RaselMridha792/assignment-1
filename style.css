@@ -318,3 +318,62 @@ body {
     margin: 30px;
 }
 /* for the margin inside the box-- end  */
+
+/* my next target style section start here  */
+.my-next-target-container{
+    max-width:1140px;
+    height: 866px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+.next-target-child{
+    width: 1140px;
+    height: 219px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 16px;
+}
+.next-target-title-section{
+     width: 832px;
+     text-align: center;
+}
+.next-target-title-section h1{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0d1321;
+    margin-bottom: 24px;
+}
+.next-target-title-section p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#0d1321;
+}
+.target-child-img{
+    margin:0px 24px;
+}
+.target-child-text h2{
+    color:#0d1321;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.target-child-text p{
+    color:#0d1321;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    width: 892px;
+}
+.target-child-text a{
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;
+    color:#0d1321;
+}
