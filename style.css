@@ -21,7 +21,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 15px 0px ; */
 }
 
 .top-header>a {
@@ -32,7 +31,7 @@ body {
     font-size: 28px;
 }
 
-.top-header>button {
+.resume-btn {
     width: 244px;
     height: 57px;
     padding: 17px 24px;
