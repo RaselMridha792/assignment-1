@@ -390,6 +390,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-bottom: 80px;
 }
 .need-support-child-section{
     display: flex;
@@ -435,4 +436,24 @@ body {
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
+}
+
+/* footer section style here  */
+footer{
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.foot-container{
+    max-width: 1140px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-link-section>a>img{
+    margin-left: 15px;
 }
